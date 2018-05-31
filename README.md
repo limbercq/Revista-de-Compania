@@ -1,1 +1,1 @@
-# Revista-de-Compania
+# Revista de Compañia
