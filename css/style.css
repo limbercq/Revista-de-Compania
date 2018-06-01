@@ -1,0 +1,76 @@
+body {
+    background: #212222;
+}
+header {
+  color: #cbd1d1;
+  padding: 0px;
+  border-bottom: 4px solid rgb(192, 190, 190);
+}
+header .log {
+  color: #eeebeb;
+  margin: 5px 20px 0px 0px;
+  font-size: 30px;
+}
+header .nav a {
+    width:105px;
+    text-align: center;
+    height:75px;
+    line-height:75px;
+    font-size:22px;
+    color: #fff;
+    border-bottom: 4px solid rgb(192, 190, 190);
+}
+header .nav {
+  padding: 0px; 
+ margin-bottom: -4px;
+}
+header .nav a:hover {
+  text-decoration: none;  
+  border-bottom: 0px;   
+}
+header .nav a:nth-of-type(1){
+    background: #484095;
+}
+header .nav a:nth-of-type(2)  {
+  background: #0184cd;
+}
+header .nav a:nth-of-type(3) {
+  background: #7cbc19;
+}
+header .nav a:nth-of-type(4) {
+    background: #ffbc00;
+}
+header .nav a:nth-of-type(5){
+    background: #d00110;    
+}
+header .nav .activ{
+    border-bottom: 0px;
+}
+ /* --- Mediaqueries --- */
+  
+  /* Dispositivo xl */
+  @media screen and (max-width: 1500px) {
+    
+} 
+/* Dispositivo lg */
+@media screen and (max-width: 991px) {
+
+    header .log{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    header .nav a {
+      width: 100%;
+      margin: 0px;
+    }   
+  }
+   /* Dispositivo md */
+   @media screen and (max-width: 767px) {
+    header .nav a {        
+        height:27px;
+        line-height:27px;
+        font-size:17px;        
+        border: 0px;
+    }
+}
