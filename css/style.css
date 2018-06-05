@@ -109,9 +109,7 @@ header .nav .activ{
     margin-left: 5px;
     color: #bbb6b6;
 }
-.Noticias{
-    margin: 20px 0 20px 0;
-}
+
 .datemedia{        
     font-size: 13px;
     margin-bottom: 5px;
@@ -147,6 +145,13 @@ header .nav .activ{
 }
 .fecha p{
     margin: 0px;
+}
+.contImg{
+    float: left;
+    margin-right: 10px;
+}
+.Noticias{
+    text-align: justify;
 }
 /* --- Footer ----*/
 footer{
